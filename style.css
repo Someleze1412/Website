@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+
+header{
+    background-image: url(https://ci3.googleusercontent.com/proxy/8q1jUBKwqZad8eiFz3xTCOAG9YQI9QXvqG-UON04zqnvYUh-GYoRq9o2JcgMdUFeWUPbEU3r3nc2EPRWq_2GSGbIkZQEN_Ag64Hz8TfT_xEpvi8FfNP36QE4YM7o4pzMklttsyJnBDt3KEGF2JmIiWjAsNiJxzPOqNFeHrFPiAxcBsrcQLFuDqy9ohkPcjqlYL6i9LWHm_PJfHev75MqkFuaaA=s0-d-e1-ft#https://dynamic.brandcrowd.com/preview/logodraft/a6d567ce-e066-4db9-ac1c-aa7f96e3eed1/image/large.png?bust=2492e84e-b2c1-4f6a-ab3a-695193de1adb);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  body {
+    margin-top: 100px;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 96px;
+  }
+  
+  h2 {
+    font-size: 48px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    opacity: 0.7;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  
+  .navigation-links a {
+    margin: 20px;
+  }
+  
+  .primary-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+  
+  .secondary-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+  
+  .homepage-link {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
+  }
+  
+  .about-paragraphs {
+    margin: 30px 0;
+  }
+  
+  .what we do-paragraphs p {
+    margin: 10px;
+  }
+  
+  .email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+  }
